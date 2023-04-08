@@ -74,6 +74,9 @@ nav .inner button{
     cursor: pointer;
 
 }
+nav .inner button a {
+    color: var(--pure); 
+}
 
 section.profile{
     background: var(--black);
@@ -260,6 +263,9 @@ main{
     outline: none;
     cursor: pointer;
     border: none;
+}
+.about-section .content button.cv a {
+    color: var(--dribble);
 }
 .about-section .content .right-content p{
     line-height: 1.6;
