@@ -538,3 +538,163 @@ section.my-work .wrapper .slider-wraper .icon-wrap i{
 .right-contact button:hover{
     background: var(--secondry);
 }
+/* Media Queries */
+
+@media (max-width:1280px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media (max-width:1024px) {
+    section.profile {
+        flex-direction: column;
+        align-items: start;
+        clip-path: none;
+    }
+
+    section.profile .left-box {
+        margin-bottom: 2rem;
+    }
+
+    section.profile .right-box {
+        align-self: flex-end;
+    }
+
+    section.my-work .wrapper{
+        display: block;
+    }
+    section.my-work .wrapper .slider-wrapper{
+        margin-bottom: 8rem;
+    }
+    .icon-wrap {
+        text-align: center;
+    }
+
+}
+
+@media (max-width:1019px){
+    .sec-heading3:after{
+        top: 370px;
+    }
+    section.about-section .content{
+        gap: 13px;
+    }
+    section.contact-me .contact-wrapper .left-contact{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .right-contact .form-group textarea{
+        width: 35rem;
+    }
+}
+@media (max-width:970px){
+    section.Education .content{
+        display: block;
+    }
+    section.Education .edu{
+       margin-bottom: 8rem;
+    }
+}
+@media (max-width:768px){
+    section.about .content{
+        display: block;
+    }
+    section.about .content .eft-content{
+       margin-bottom: 6rem;
+    }
+
+    section.contact-me .contact-wrapper{
+        display: block;
+    }
+    section.contact-me .contact-wrapper .left-contact{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .sec-heading3:after{
+        top: 370px;
+    }
+    .icon-wrap {
+        text-align: center;
+      }
+}
+@media (max-width:576px){
+    section.profile{
+        align-items: center;
+
+    }
+    section.profile .right-box{
+        align-self: center;
+
+    }
+    section.profile .left-box{
+        margin-bottom: 6rem;
+
+    }
+    .tabs ul{
+        flex-wrap: wrap;
+    }
+    .tabs ul li{
+       margin-bottom: 4rem;
+    }
+    section.contact-me .contact-wrapper .right-contact .form-group{
+        grid-template-columns: 1fr ;
+    }
+    .sec-heading3:after{
+        top: 410px;
+    }
+   
+    .icon-wrap {
+      text-align: center;
+    }
+    .right-contact .form-group textarea{
+        width: 40rem;
+    }
+ 
+   
+}
+@media (max-width:434px){
+    section.about-section .content{
+       display: block;
+       
+
+    }
+    section.about-section .content .right-content{
+        margin-top: 2rem;
+       width: 30rem;
+
+    }
+    .right-contact .form-group textarea{
+        width: 30rem;
+    }
+ 
+    .sec-heading3:after{
+        top: 408px;
+    }
+    .icon-wrap {
+        text-align: center;
+    }
+
+}
+@media (max-width:329px){
+    .icon-wrap {
+       width: 80%;
+    }
+    .about-section .content .right-content{
+        margin-left: -20px;
+    }
+    section .edu {
+        
+        grid-template-columns: 1fr ;
+    }
+    .right-contact .form-group textarea{
+        width: 22rem;
+    }
+    .sec-heading3:after{
+        top: 423px;
+    }
+}
