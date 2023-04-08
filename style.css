@@ -560,6 +560,9 @@ footer {
         align-items: start;
         clip-path: none;
     }
+      .sec-heading3:after{
+        top: 370px;
+    }
 
     section.profile .left-box {
         margin-bottom: 2rem;
@@ -688,7 +691,7 @@ footer {
     }
 
 }
-@media (max-width:329px){
+@media (max-width:376px){
     .icon-wrap {
        width: 80%;
     }
